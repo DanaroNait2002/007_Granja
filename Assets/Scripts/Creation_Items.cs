@@ -13,10 +13,7 @@ public class Creation_Items : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast, out hit, Math.Infinity)
-                {
-
-                }
+            //if (Physics.Raycast, out hit, Math.Infinity)
         }
     }
 
