@@ -9,9 +9,14 @@ public class Movement_Camera : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
-            Vector3 mousePos = Input.mousePosition;
+            if (Input.GetMouseButtonDown(0))
+            {
+
+            }
+            
+                Vector3 mousePos = Input.mousePosition;
 
             Camera.main.transform.position = mousePos;
 
